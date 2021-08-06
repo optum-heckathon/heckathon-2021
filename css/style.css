@@ -4789,3 +4789,7 @@ li.hc-home-new:after {
     font-size: 30px;
 }
 }
+.file {
+	visibility: hidden;
+	position: absolute;
+}
