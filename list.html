@@ -59,7 +59,7 @@
 </header>
 <div class="hs_page_title" style="padding: 40px 0px">
     <div class="container">
-        <h3>User Registration</h3>
+        <h3>Patients Review Dashboard</h3>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Register</a></li>
@@ -72,80 +72,38 @@
 
 
 
-        <div class="col-lg-7 col-lg-offset-2" style="margin-top: 50px; margin-bottom: 150px;">
+        <div class="col-lg-12" style="margin-top: 50px;
+    margin-bottom: 150px;
+    overflow-x: scroll;">
 
 
-            <form>
-                <div class="form-group row">
-                    <label for="fname" class="col-sm-4 col-form-label text-right">First Name</label>
-                    <div class="col-sm-8">
-                        <input type="text"  class="form-control" id="fname">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="lname" class="col-sm-4 col-form-label text-right">Last Name</label>
-                    <div class="col-sm-8">
-                        <input type="text"  class="form-control" id="lname">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="cno" class="col-sm-4 col-form-label text-right">Contact No.</label>
-                    <div class="col-sm-8">
-                        <input type="text"  class="form-control" id="cno">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="email" class="col-sm-4 col-form-label text-right">Address</label>
-                    <div class="col-sm-8">
-                        <textarea class="form-control" id="address"></textarea>
-                    </div>
-                </div>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Picture</th>
+                    <th>Name of Patient</th>
+                    <th>Age</th>
+                    <th>Gender</th>
 
-                <div class="form-group row">
-                    <label for="email" class="col-sm-4 col-form-label text-right">Email</label>
-                    <div class="col-sm-8">
-                        <input type="text"  class="form-control" id="email">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="password" class="col-sm-4 col-form-label text-right">Password</label>
-                    <div class="col-sm-8">
-                        <input type="password"  class="form-control" id="password">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="rtpwd" class="col-sm-4 col-form-label text-right">Retype Password</label>
-                    <div class="col-sm-8">
-                        <input type="password"  class="form-control" id="rtpwd">
-                    </div>
-                </div>
+                    <th class="estimated">Estimated Happy</th>
+                    <th class="estimated">Estimated Surprised</th>
+                    <th class="estimated">Estimated Sad</th>
+                    <th class="estimated">Estimated Fearful</th>
+                    <th class="estimated">Estimated Disgusted</th>
+                    <th class="estimated">Estimated Neutral</th>
+                    <th class="estimated">Estimated Angry</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><img class="photo" style="height: 150px" src="images/002/nophoto.png"></td>
+                    <td>Default</td>
+                    <td>Defaultson</td>
+                    <td>def@somemail.com</td>
+                </tr>
 
-                <div class="form-group row">
-                    <div class=" col-lg-7 col-lg-offset-4" style="    position: relative;left: 28px;">
-                        <div id="msg"></div>
-
-                        <input type="file" name="img[]" class="file" accept="image/*">
-                        <div class="input-group   text-center" style="width: 100%;margin-top: 10px;">
-                            <input type="text" class="form-control" disabled="" placeholder="Upload File" id="file" style="width: 57%;">
-                            <button type="button" class="browse btn btn-primary" style="height: 32px;line-height: initial;font-size: 12px;">Browse Photo...</button>
-                        </div>
-
-                        <div class="row text-center" style="margin-top: 15px;">
-                            <img src="images/002/nophoto.png" id="preview" style="max-height: 225px" class="img-thumbnail">
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="form-group row">
-                    <label for="email" class="col-sm-4 col-form-label text-right"></label>
-                    <div class="col-sm-8 text-center">
-                        <button type="reset" class="btn btn-warning btn-lg">Cancel</button>
-                        <button type="button" class="btn btn-primary btn-lg" onclick="alert('Registration submitted successfully.')">Submit</button>
-                    </div>
-
-                </div>
-            </form>
+                </tbody>
+            </table>
         </div>
     </div>
 
