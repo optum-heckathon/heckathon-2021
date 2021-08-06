@@ -4793,3 +4793,12 @@ li.hc-home-new:after {
 	visibility: hidden;
 	position: absolute;
 }
+
+.patient-list th{
+		background: darkgrey;
+		color: black;
+}
+
+.patient-list th.estimated{
+	background: orange;
+}
